@@ -1,0 +1,42 @@
+<meta charset="utf-8">
+
+<script>
+function pulaLinha(){
+	document.write("<br>");
+};
+
+function mostra(frase){
+	document.write(frase);
+	pulaLinha();
+};
+
+function calculaImc(peso, altura){
+	return peso / (altura*altura);
+};
+
+
+var nome = prompt("Informe seu nome");
+var altura = prompt(nome + ", Informe sua altura");
+var peso = prompt(nome + ", Informe seu peso");
+var imc = calculaImc(peso, altura);
+
+mostra(nome + ", o seu imc é: " + imc);
+
+if(imc<18.5){
+	mostra("Você esta abaixo do peso.");
+};
+
+if(imc>=18.5 && imc<25){
+	mostra("Seu peso é adequado.");
+};
+
+if(imc>=25 && imc<30){
+	mostra("Você esta acima do peso.");
+};
+
+if(imc>=30){
+	mostra("Você esta com obesidade.");
+};
+
+
+</script>
