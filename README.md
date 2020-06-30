@@ -7,3 +7,6 @@
    
  2. Git e GitHub
    - Dentro da pasta contem meu certificado e resumo.
+ 
+ 3. Python3
+   - Dentro da pasta se encontra meus primeiros projetos usando a linguagem python3.
