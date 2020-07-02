@@ -1,0 +1,52 @@
+<meta charset="utf-8">
+
+<script>
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha()
+	};
+	
+	function pulaLinha(){
+		document.write("<br>");
+	};
+
+	var votos = [];
+	var generos = [];
+	var filmes = ["Parasita", "Coringa", "1917"];
+	var repete = true
+
+	while(repete == true){
+		var escolha = prompt("Digite: 1-Ir para a votação 2-Adicionar filme");
+
+		if(escolha == 2){
+			var adicao = prompt("Digite o filme que deseja adicionar: ");
+			filmes.push(adicao);
+		};
+		if(escolha == 1){
+			var voto = prompt("Digite seu voto, 1-Parasita  2-Coringa  3-1917");
+			if(voto == 1){
+				votosParasita++
+			};
+			if(voto == 2){
+				votosCoringa++ 
+			};
+			if(voto == 3 ){
+				votos1917++
+				
+			};
+		
+		};
+		var escolhaf = prompt("Deseja 1-voltar ao menu ou 2-encerrar votação?");
+		if(escolhaf == 1){
+			repete = true
+		};
+		if(escolhaf == 2){
+			repete = false 
+		};
+	};
+	
+	mostra("Parasita: " + votosParasita);
+	mostra("Coringa: " + votosCoringa);
+	mostra("1917: " + votos1917);
+	
+</script>
