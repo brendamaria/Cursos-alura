@@ -10,10 +10,10 @@
 		document.write("<br>");
 	};
 
-	var votos = [];
-	var generos = [];
-	var filmes = ["Parasita", "Coringa", "1917"];
-	var repete = true
+	var votos = [0, 0, 0];
+	var filmes = ["parasita", " coringa", " 1917"];
+	
+	var repete = true;
 
 	while(repete == true){
 		var escolha = prompt("Digite: 1-Ir para a votação 2-Adicionar filme");
@@ -21,18 +21,21 @@
 		if(escolha == 2){
 			var adicao = prompt("Digite o filme que deseja adicionar: ");
 			filmes.push(adicao);
+			votos.push(0);
 		};
+
+		alert("vote com o numeros, primeiro filme = 0");
+
 		if(escolha == 1){
-			var voto = prompt("Digite seu voto, 1-Parasita  2-Coringa  3-1917");
-			if(voto == 1){
-				votosParasita++
+			var indice = prompt("Digite seu voto " + filmes);
+			if(filmes[0] == filmes[indice]){
+				votos[0] + 1
 			};
-			if(voto == 2){
-				votosCoringa++ 
+			if(filmes[1] == filmes[indice]){
+				votos[1] + 1 
 			};
-			if(voto == 3 ){
-				votos1917++
-				
+			if(filmes[2] == filmes[indice]){
+				votos[2] + 1	
 			};
 		
 		};
@@ -45,8 +48,7 @@
 		};
 	};
 	
-	mostra("Parasita: " + votosParasita);
-	mostra("Coringa: " + votosCoringa);
-	mostra("1917: " + votos1917);
+	
+
 	
 </script>
