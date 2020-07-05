@@ -10,12 +10,12 @@
 		document.write("<br>");
 	};
 
-	var votos = [0, 0, 0];
-	var filmes = ["parasita", " coringa", " 1917"];
-	
-	var repete = true;
+	var votos = [0, 0, 0]
 
-	while(repete == true){
+	var filmes = [" Parasita ", "Coringa ", "1917 "];
+	var repete = true
+
+	while(repete){
 		var escolha = prompt("Digite: 1-Ir para a votação 2-Adicionar filme");
 
 		if(escolha == 2){
@@ -23,21 +23,9 @@
 			filmes.push(adicao);
 			votos.push(0);
 		};
-
-		alert("vote com o numeros, primeiro filme = 0");
-
 		if(escolha == 1){
-			var indice = prompt("Digite seu voto " + filmes);
-			if(filmes[0] == filmes[indice]){
-				votos[0] + 1
-			};
-			if(filmes[1] == filmes[indice]){
-				votos[1] + 1 
-			};
-			if(filmes[2] == filmes[indice]){
-				votos[2] + 1	
-			};
-		
+			var voto = parseInt(prompt("Digite seu voto," + filmes));
+			votos[voto] = votos[voto] + 1		
 		};
 		var escolhaf = prompt("Deseja 1-voltar ao menu ou 2-encerrar votação?");
 		if(escolhaf == 1){
@@ -47,8 +35,15 @@
 			repete = false 
 		};
 	};
-	
-	
 
+	var vencedor = Math.max(...votos);
+	console.log(vencedor);
+
+	for (var posicao = 0; votos[posicao] == vencedor; posicao++) {
+		mostra(filmes[posicao]);
+		
+		
+	};
+	
 	
 </script>
