@@ -49,11 +49,10 @@
     function trocaBandeira(){
         if(troca){
             desenhaBandeiraBrasil();
-            troca = false
         }else{
             desenhaBandeiraAlemanha();
-            troca = true
         };
+        troca = !troca;
 
     };
 
