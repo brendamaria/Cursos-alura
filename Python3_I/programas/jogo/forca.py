@@ -3,6 +3,8 @@ def jogar():
     print("Bem vindo ao jofo de adivinhção!")
     print("********************************")
 
+    arquivo = open("palavra.txt",)
+
     palavra_secreta = "maça".upper()
     letras_acertadas = ["_" for letra in palavra_secreta]
 
