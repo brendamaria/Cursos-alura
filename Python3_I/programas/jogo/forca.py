@@ -5,22 +5,27 @@ def mensagemDeInicio():
     print("Bem vindo ao jofo de adivinhção!")
     print("********************************")
 
-    
-def jogar():
-
-    mensagemDeInicio()
-
-    arquivo = open("arquivo.txt","r")
+def carrega_palavra_secreta():
+    arquivo = open("arquivo.txt", "r")
     palavras = []
 
     for linha in arquivo:
         linha = linha.strip()
         palavras.append(linha)
-   
+
     arquivo.close()
 
     numero = random.randrange(0, len(palavras))
     palavra_secreta = palavras[numero].upper()
+    return palavra_secreta
+
+
+def jogar():
+
+    mensagemDeInicio()
+
+    carrega_palavra_secreta()
+
     letras_acertadas = ["_" for letra in palavra_secreta]
 
     print(letras_acertadas)
