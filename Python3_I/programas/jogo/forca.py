@@ -1,10 +1,14 @@
 import random
-    
-def jogar():
 
+def mensagemDeInicio():
     print("********************************")
     print("Bem vindo ao jofo de adivinhção!")
     print("********************************")
+
+    
+def jogar():
+
+    mensagemDeInicio()
 
     arquivo = open("arquivo.txt","r")
     palavras = []
