@@ -7,14 +7,14 @@ public class TestaPontoFlutuante {
 		
 		System.out.println(salario);
 		
-		System.out.println("meu salario é " + salario);
+		System.out.println("meu salario Ã© " + salario);
 		
 		double divisao = 5.0 / 2;
 		System.out.println(divisao);
 		
+		int teste = 5 / 2;
+		System.out.println(teste);
+		
 	}
 	
-	
-	
-
 }
