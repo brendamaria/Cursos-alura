@@ -8,6 +8,7 @@ public class TestaEscopo {
 		boolean acompanhado = true;
 
 		if (quantidadePessoas >= 2) {
+			int a = 20;
 			acompanhado = true;
 		} else {
 			acompanhado = false;
