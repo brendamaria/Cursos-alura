@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f9eccf0-ea20-483a-abc2-c8c33ffbe5b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/conta.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Java/sintaxe-variaveis-e-fluxo/src/TestaEscopo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/sintaxe-variaveis-e-fluxo/src/TestaEscopo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7f9eccf0-ea20-483a-abc2-c8c33ffbe5b6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -122,6 +118,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="45" width="1280" height="711" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
