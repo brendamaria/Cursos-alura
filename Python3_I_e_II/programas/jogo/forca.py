@@ -2,7 +2,7 @@ import random
 
 def mensagem_de_inicio():
     print("********************************")
-    print("Bem vindo ao jofo de adivinhção!")
+    print("Bem vindo ao jogo de adivinhção!")
     print("********************************")
 
 def carrega_palavra_secreta():
