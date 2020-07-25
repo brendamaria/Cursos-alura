@@ -13,3 +13,6 @@
  
  4. Python3
    - Dentro da pasta se encontra meus primeiros projetos usando a linguagem python3.
+   
+ 5. Java
+   - Dentro da pasta se encontra meus primeiros projetos usando a linguagem java.
