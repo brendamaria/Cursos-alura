@@ -11,4 +11,9 @@ def saca(conta, valor):
 def extrato(conta):
     print("saldo {}".format(conta["saldo"]))
 
+def ola():
+    print("ola mundo")
 
+if __name__ == '__main__':
+    print("iniciando")
+    ola()
