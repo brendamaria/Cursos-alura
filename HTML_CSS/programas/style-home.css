@@ -15,6 +15,10 @@ nav{
     right: 0;
 }
 
+nav ul{
+    display: inline-flex;
+}
+
 nav li{
     display: inline;
     margin: 0 0 0 15px;
@@ -34,7 +38,6 @@ nav a:hover{
 }
 
 .principal{
-    background: #cccccc;
     padding: 30px;
 }
 
@@ -52,13 +55,17 @@ nav a:hover{
 }
 
 .texto-centralizado{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px 0;
     text-align: center;
 }
 
 ul{
+    font-size: 25px;
     display: inline-block;
     vertical-align: top;
-    width: 20%;
+    width: 30%;
     margin-right: 15%;
 }
 
@@ -71,13 +78,27 @@ ul{
 }
 
 p {
+    font-size: 20px;
     text-align: center;
 }
 
 #missao{
-    font-size: 20px;
+    margin: 10px 0;
+    font-size: 22px;
 }
 
 em strong{
     color: #ff0000;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
