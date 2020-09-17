@@ -101,11 +101,16 @@ form {
 
 form label, form p {
     display: block;
-    font-size: 0 0 20px;
+    font-size: 0 10px 20px;
     margin: 0 0 10px;
 }
 
 form input {
+    margin: 0 0 20px;
+    padding: 10px 25px;
+}
+
+.input-padrao {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
