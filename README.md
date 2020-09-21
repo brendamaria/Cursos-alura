@@ -1,5 +1,5 @@
 # Cursos Alura
-brenda
+
 ## Olá eu sou a Brenda, é aqui tem os cursos que conclui na plataforma do Alura:
  
  1. Lógica de Programação I
@@ -20,4 +20,3 @@ brenda
  6. HTML e CSS
    - Dentro da pasta se encontra meus primeiros projetos usando a linguagem HTML e CSS.
 
-   minha atualizacao
