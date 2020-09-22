@@ -8,4 +8,6 @@ moedaOrigem,moedaDestino = cambio.retornaMoedas()
 valor = cambio.retornaValor()
 print(moedaOrigem, moedaDestino, valor)
 
+print(url.startswith("https"))
 
+print(url.endswith("150"))
