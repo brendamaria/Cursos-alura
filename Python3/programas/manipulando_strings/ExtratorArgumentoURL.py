@@ -46,3 +46,4 @@ class ExtratorArgumentoURL:
         inicioSubstringValor = self.encontraIndiceInicioSubstring(buscaValor)
         valor = self.url[inicioSubstringValor:]
         return valor
+
