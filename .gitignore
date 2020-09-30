@@ -1,7 +1,4 @@
 /.metadata/
-/oo/__pycache__/
-/oo/.idea/
-/oo/venv/
-/jogo/__pycache__/
-/jogo/.idea/
-
+/.DS_Store
+/HTML_CSS/programas/.DS_Store
+/Java/programas/.DS_Store
