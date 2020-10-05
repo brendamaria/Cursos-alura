@@ -30,3 +30,7 @@ idades_ano_que_vem = [(idade+1) for idade in idades]
 ''' for idade in idades:
     idades_ano_que_vem.append(idade + 1)'''
 print(idades_ano_que_vem)
+
+idades.sort()
+
+print(idades)
