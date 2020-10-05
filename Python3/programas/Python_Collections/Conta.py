@@ -1,4 +1,6 @@
+from functools import total_ordering
 
+@total_ordering
 class Conta:
     def __init__(self, codigo):
         self._codigo = codigo
@@ -11,7 +13,9 @@ class Conta:
         return self._codigo == other._codigo and self._saldo == other._saldo
 
     def __lt__(self, other):
-        return self._saldo < other._saldo
+        if self._saldo != other._saldo:
+            return self._saldo < other._saldo
+        return self._codigo < other._codigo
 
     def deposita(self, valor):
         self._saldo += valor

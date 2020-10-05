@@ -20,3 +20,5 @@ print(conta_daniela < conta_guilherme)
 
 print(conta_guilherme == conta_guilherme)
 
+print(conta_paulo <= conta_daniela)
+print(conta_guilherme <= conta_guilherme)
