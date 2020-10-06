@@ -18,6 +18,7 @@ print(33 in idades)
 
 if 27 in idades:
     idades.remove(27)
+
 print(idades)
 
 '''idades.append([33, 40])

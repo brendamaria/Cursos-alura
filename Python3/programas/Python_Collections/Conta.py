@@ -6,6 +6,10 @@ class Conta:
         self._codigo = codigo
         self._saldo = 0
 
+    def __add__(self, other):
+        if isinstance(other, int):
+            self.deposita(other)
+
     def __eq__(self, other):
         if type(other) != Conta:
             return False
@@ -19,6 +23,9 @@ class Conta:
 
     def deposita(self, valor):
         self._saldo += valor
+
+    def saldo(self):
+        return self._saldo
 
     def __str__(self):
         return "[>> Codigo {} Saldo {} <<]".format(self._codigo,self._saldo)

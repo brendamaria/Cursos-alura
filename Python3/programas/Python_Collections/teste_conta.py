@@ -6,6 +6,13 @@ conta_guilherme.deposita(100)
 conta_daniela = Conta(43)
 conta_daniela.deposita(200)
 
+print(conta_guilherme.saldo())
+print(conta_daniela.saldo())
+
+conta_guilherme + 20
+
+print(conta_guilherme.saldo())
+
 conta_paulo = Conta(65)
 conta_paulo.deposita(300)
 
