@@ -217,7 +217,7 @@ th, td {
 
 .beneficios {
     padding: 3em 0;
-    background: #888888;
+    background: #888888;    
 }
 
 .conteudo-beneficios {
@@ -245,9 +245,17 @@ th, td {
 
 .imagembeneficios {
     width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagembeneficios:hover{
+    opacity: 0.6;
 }
 
 .video {
     width: 560px;
     margin: 2em auto;
 }
+
