@@ -1,14 +1,13 @@
 
-
 apariocoes = {"guilherme" : 1, "cachorro" : 2, "nome" : 2, "vindo" : 1}
 
 teste = "cachorro" in apariocoes
-segundoTeste = "carlos" in apariocoes
-naoTem = apariocoes.get("xpto", 0) #caso não tenha retorna 0
+segundo_teste = "carlos" in apariocoes
+nao_tem = apariocoes.get("xpto", 0) #caso não tenha retorna 0
 
 print(teste)
-print(segundoTeste)
-print(naoTem)
+print(segundo_teste)
+print(nao_tem)
 
 
 for elemento in apariocoes:
@@ -28,6 +27,8 @@ print(apariocoes)
 
 del apariocoes["carlos"]
 print(apariocoes)
+
+
 
 
 
