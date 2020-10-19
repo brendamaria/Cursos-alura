@@ -1,5 +1,14 @@
 package br.com.bytebank.banco.modelo;
 
+/**
+ * 
+ * Representação de clientes
+ * 
+ * @author brendamaria
+ *
+ */
+
+
 public class Cliente{
 	
 
