@@ -1,8 +1,7 @@
-from validacao_CPF import Cpf
-from validacao_CNPJ import Cnpj
+from validacao_CPF_CNPJ import Documento
 
-cpf = Cpf("03665289122")
+cpf = Documento.cria_documento("03665289122")
 print(cpf)
 
-cnjp = Cnpj("26194892000100")
+cnjp = Documento.cria_documento("35379838000112")
 print(cnjp)
