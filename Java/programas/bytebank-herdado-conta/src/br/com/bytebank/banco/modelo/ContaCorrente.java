@@ -4,8 +4,6 @@ public class ContaCorrente extends Conta implements Tributavel {
 	
 	public ContaCorrente(int agencia, int numero) {
 		super(agencia, numero);
-		System.out.println("criando uma conta corrente");
-
 	}
 	
 	@Override
@@ -25,4 +23,8 @@ public class ContaCorrente extends Conta implements Tributavel {
 		return super.saldo * 0.01;
 	}
 	
+	@Override
+	public String toString() {
+	    return "Conta Corrente, " + super.toString();
+	}
 }

@@ -1,4 +1,4 @@
-package especial;
+package br.com.bytebank.banco.especial;
 
 import br.com.bytebank.banco.modelo.Conta;
 

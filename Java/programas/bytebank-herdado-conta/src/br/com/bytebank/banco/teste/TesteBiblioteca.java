@@ -1,4 +1,4 @@
-package br.com.alura.bytebank;
+package br.com.bytebank.banco.teste;
 
 import br.com.bytebank.banco.modelo.Conta;
 import br.com.bytebank.banco.modelo.ContaCorrente;
