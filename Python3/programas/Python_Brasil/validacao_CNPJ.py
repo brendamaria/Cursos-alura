@@ -1,6 +1,5 @@
 from validate_docbr import CNPJ
 
-
 class Cnpj:
 
     def __init__(self, documento):
