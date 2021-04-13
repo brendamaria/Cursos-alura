@@ -1,6 +1,7 @@
 from validacao_telefone import TelefonesBr
 from validacao_CPF_CNPJ import Documento
 from datas import Datas
+from valida_CEP import BuscaEndereco
 
 print("------ VALIDAÇÃO DE TELEFONE ------")
 telefone = "552126481234"
@@ -28,3 +29,10 @@ print("-- Dia do Cadastro --")
 print(cadastro.dia_semana())
 print("-- Formatação --")
 print(cadastro.data_formatada())
+print("-- Tempo Cadastro --")
+print(cadastro.tempo_cadastro())
+
+print("-- Endereços --")
+cep = 70673410
+cep_obj = BuscaEndereco(cep)
+print(cep_obj)
