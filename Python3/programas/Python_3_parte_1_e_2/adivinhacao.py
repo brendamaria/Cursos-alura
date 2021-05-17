@@ -3,7 +3,7 @@ def jogar():
     import random
 
     print("********************************")
-    print("Bem vindo ao jofo de adivinhção!")
+    print("Bem vindo ao jogo de adivinhção!")
     print("********************************")
 
     numero_secreto = round(random.randrange(1,101))

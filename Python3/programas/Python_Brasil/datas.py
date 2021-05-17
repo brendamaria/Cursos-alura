@@ -14,7 +14,7 @@ class Datas:
         return mes_do_ano[mes_cadastro]
 
     def dia_semana(self):
-        dia_semana_lista = ["Segunda","Terça","Quarta","Quinta","Sexta"]
+        dia_semana_lista = ["Segunda","Terça","Quarta","Quinta","Sexta","Sabado","Domingo"]
         dia_cadastro = self.momento_cadastro.weekday()
         return dia_semana_lista[dia_cadastro]
 
