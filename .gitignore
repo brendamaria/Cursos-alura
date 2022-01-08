@@ -1,9 +1,10 @@
+.DS_Store
+
 #Python3
 Python3/Programas/.idea
 Python3/Programas/Introdução à nova versão da linguagem e Avançando na linguagem/__pycache__
 
 #Java
-
 Java/Programas/java-pilha/.classpath
 Java/Programas/java-pilha/.project
 Java/Programas/java-pilha/.settings
