@@ -1,0 +1,19 @@
+.descricao {
+    margin: 24px 0;
+}
+
+.descricao label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.descricao textarea {
+    background: #FFF;
+    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    border: none;
+    font-size: 24px;
+    padding: 24px;
+    box-sizing: border-box;
+}
